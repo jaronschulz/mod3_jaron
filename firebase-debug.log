@@ -1,0 +1,41 @@
+[debug] [2018-01-10T14:22:32.072Z] ----------------------------------------------------------------------
+[debug] [2018-01-10T14:22:32.074Z] Command:       /usr/local/Cellar/node/8.9.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-10T14:22:32.074Z] CLI Version:   3.16.0
+[debug] [2018-01-10T14:22:32.074Z] Platform:      darwin
+[debug] [2018-01-10T14:22:32.074Z] Node Version:  v8.9.1
+[debug] [2018-01-10T14:22:32.075Z] Time:          Wed Jan 10 2018 15:22:32 GMT+0100 (CET)
+[debug] [2018-01-10T14:22:32.075Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-10T14:22:32.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-10T14:22:32.087Z] > authorizing via signed-in user
+[debug] [2018-01-10T14:22:32.089Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-10T14:22:32.089Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/gDbEOWudkkfD5t8qVjaMXG4NtMNZH6Wk1qCzMDYRsKc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jan 10 2018 15:22:32 GMT+0100 (CET)
+[debug] [2018-01-10T14:22:32.491Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T14:22:32.513Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nysl-jaron  
+  
+ Wed Jan 10 2018 15:22:32 GMT+0100 (CET)
+[debug] [2018-01-10T14:22:33.288Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T14:22:33.289Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nysl-jaron/tokens  
+  
+ Wed Jan 10 2018 15:22:33 GMT+0100 (CET)
+[debug] [2018-01-10T14:22:34.131Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jaronschulz/Sites/ubiqum/leonardo/mod3_jaron/code'...
+[info] 
+[debug] [2018-01-10T14:22:34.133Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nysl-jaron  
+  
+ Wed Jan 10 2018 15:22:34 GMT+0100 (CET)
+[debug] [2018-01-10T14:22:35.054Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T14:22:35.057Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/297991597054/clients/_:getWebAppConfig  
+  
+ Wed Jan 10 2018 15:22:35 GMT+0100 (CET)
+[debug] [2018-01-10T14:22:35.905Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

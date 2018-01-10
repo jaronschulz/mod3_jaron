@@ -1,0 +1,26 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:css dev:server",
+    "dev:server": "firebase serve",
+    "dev:css": "node-sass public/scss/style.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaronschulz/mod3_jaron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaronschulz/mod3_jaron/issues"
+  },
+  "homepage": "https://github.com/jaronschulz/mod3_jaron#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
+  }
+}
